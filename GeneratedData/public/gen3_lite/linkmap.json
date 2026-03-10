@@ -1,0 +1,840 @@
+{
+  "base_link": {
+    "$": {
+      "name": "base_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "1.14608471"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.00335854",
+          "ixy": "3.9E-07",
+          "ixz": "0.00010989",
+          "iyy": "0.003311",
+          "iyz": "1.91E-06",
+          "izz": "0.00077158"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.00244324,
+            0.00015573,
+            0.08616742
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/base_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/base_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "shoulder_link": {
+    "$": {
+      "name": "shoulder_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.95974404"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.00165947",
+          "ixy": "2E-08",
+          "ixz": "3.6E-07",
+          "iyy": "0.00140355",
+          "iyz": "0.00034927",
+          "izz": "0.00089493"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.00002477,
+            0.02213531,
+            0.09937686
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/shoulder_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/shoulder_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "arm_link": {
+    "$": {
+      "name": "arm_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "1.17756164"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.01149277",
+          "ixy": "1E-06",
+          "ixz": "1.6E-07",
+          "iyy": "0.00102851",
+          "iyz": "0.00140765",
+          "izz": "0.01133492"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.02998299,
+            0.21154808,
+            0.0453031
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/arm_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/arm_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "forearm_link": {
+    "$": {
+      "name": "forearm_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.59767669"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.00163256",
+          "ixy": "7.11E-06",
+          "ixz": "1.54E-06",
+          "iyy": "0.00029798",
+          "iyz": "9.587E-05",
+          "izz": "0.00169091"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.0301559,
+            0.09502206,
+            0.0073555
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/forearm_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/forearm_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "lower_wrist_link": {
+    "$": {
+      "name": "lower_wrist_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.52693412"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.00069098",
+          "ixy": "2.4E-07",
+          "ixz": "0.00016483",
+          "iyy": "0.00078519",
+          "iyz": "7.4E-07",
+          "izz": "0.00034115"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.00575149,
+            0.01000443,
+            0.08719207
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/lower_wrist_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/lower_wrist_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "upper_wrist_link": {
+    "$": {
+      "name": "upper_wrist_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.58097325"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.00021268",
+          "ixy": "5.21E-06",
+          "ixz": "2.91E-06",
+          "iyy": "0.00106371",
+          "iyz": "1.1E-07",
+          "izz": "0.00108465"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.08056517,
+            0.00980409,
+            0.01872799
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/upper_wrist_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/upper_wrist_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "end_effector_link": {
+    "$": {
+      "name": "end_effector_link"
+    }
+  },
+  "dummy_link": {
+    "$": {
+      "name": "dummy_link"
+    }
+  },
+  "gripper_base_link": {
+    "$": {
+      "name": "gripper_base_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.1395"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "0.00011614",
+          "ixy": "1E-08",
+          "ixz": "4E-08",
+          "iyy": "0.00010327",
+          "iyz": "0",
+          "izz": "9.707E-05"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.00000403,
+            0.0000108,
+            0.041397
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "right_finger_prox_link": {
+    "$": {
+      "name": "right_finger_prox_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.018385"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "2.29E-06",
+          "ixy": "1.43E-06",
+          "ixz": "0",
+          "iyy": "4.56E-06",
+          "iyz": "0",
+          "izz": "4.77E-06"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.020257,
+            0.0063483,
+            0.00006991
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0.803 0.824 0.820 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "right_finger_dist_link": {
+    "$": {
+      "name": "right_finger_dist_link"
+    },
+    "inertial": {
+      "mass": {
+        "$": {
+          "value": "0.010748"
+        }
+      },
+      "inertia": {
+        "$": {
+          "ixx": "6.3E-07",
+          "ixy": "3.2E-07",
+          "ixz": "0",
+          "iyy": "1.83E-06",
+          "iyz": "0",
+          "izz": "1.61E-06"
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0.018488,
+            0.0011091,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "visual": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL"
+          }
+        }
+      },
+      "material": {
+        "$": {
+          "name": ""
+        },
+        "color": {
+          "$": {
+            "rgba": "0 0.055 0.525 1"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "collision": {
+      "geometry": {
+        "mesh": {
+          "$": {
+            "filename": "file:///home/ymucystk_ucl/ros2_kortex_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL"
+          }
+        }
+      },
+      "origin": {
+        "$": {
+          "xyz": [
+            0,
+            0,
+            0
+          ],
+          "rpy": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}
